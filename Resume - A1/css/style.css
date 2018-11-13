@@ -1,0 +1,322 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    background-color: #2F4050;
+}
+
+/* COLUMN 1 */
+
+#column_1 {
+    background-color: #2F4050;
+    color: #ffffff;
+}
+
+#image_section {
+    background-image: url(../img/background.jpg)
+}
+
+#img_container img {
+    max-width: 100%;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+#img_container {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#cv_name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#divider {
+    border-bottom: 2px solid #19aa8d;
+}
+
+#cv_position {
+    font-weight: 300;
+    color: #a7b1c2;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#contact_details {
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 5px 15px 7px 10px;
+    background-color: #19aa8d;
+    border: 1px solid #a7b1c2;
+    border-right: 0px;
+    float: right;
+}
+
+#contact_details img {
+    width: 18px;
+}
+
+#contact_details span {
+    padding-left: 10px;
+}
+
+#contact_list li {
+    font-size: 0.8em;
+    margin-left: 14%;
+    margin-top: 15px;
+}
+
+#contact_list li img {
+    width: 16px;
+}
+
+#contact_list li span {
+    padding-left: 10px;
+    vertical-align: super;
+}
+
+nav {
+    margin-top: 40px;
+    border-left: 4px solid #19aa8d;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a div {
+    height: 2.5em;
+    padding-top: 15px;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding-left: 10%;
+}
+
+nav div:hover {
+    background-color: #293846;
+}
+
+nav a div img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+
+/* COLUMN 2 */
+
+#column_2 {
+    background-color: #f3f3f4;
+    color: #212529;
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-top: 30px;
+    margin-left: 5%;
+    padding: 5px 0px 7px 15px;
+    background-color: #19aa8d;
+    border: 1px solid #a7b1c2;
+}
+
+.heading img {
+    width: 20px;
+}
+
+.heading span {
+    padding-left: 20px;
+}
+
+.top_of_page {
+    float: right;
+    padding-right: 35px;
+    padding-top: 2px;
+}
+
+.top_of_page img:hover {
+    width: 24px;
+}
+
+.content {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+
+.school, .employer {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.degree, .position {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.year {
+    margin-bottom: 4px;
+    font-style: italic;
+}
+
+#skills {
+    overflow: auto;
+}
+
+.skill_item {
+    margin-top: 20px;
+}
+
+#skill_column_1 {
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+#skill_column_2, #skill_column_3 {
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+}
+
+.skill_name {
+    float: left;
+    margin-bottom: 4px;
+    margin-right: 15px;
+}
+
+.skill_item img {
+    width: 15px;
+}
+
+.skill_type, .link_type {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#link_column_1 {
+    padding-bottom: 100px;
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 30%;
+    float: left;
+}
+
+#link_column_2, #link_column_3 {
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+#link_column_1 div, #link_column_2 div, #link_column_3 div {
+    margin-top: 35px;
+}
+
+#link_column_1 a, #link_column_2 a, #link_column_3 a {
+    text-decoration: none;
+    color: #2F4050;
+    border: 1px solid #2F4050;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#link_column_1 a:hover, #link_column_2 a:hover, #link_column_3 a:hover {
+    color: #ffffff;
+    background-color: #2F4050;
+    border: 1px solid #2F4050;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*MEDIA QUERIES */
+
+/*Between 600px and 925px colum 1 nd 2 for skills and links sit next to each other, with column 3 on a seperate line */
+@media only screen and (min-width: 600px) and (max-width: 925px) {
+
+    #skill_column_1, #skill_column_2 {
+        width: 45%;
+        padding-bottom: 20px;
+    }
+
+    #skill_column_3 {
+        width: 45%;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+
+    #link_column_1, #link_column_2 {
+        width: 45%;
+        padding-bottom: 20px;
+    }
+
+    #link_column_3 {
+        padding-bottom: 100px;
+        margin-top: 20px;
+        margin-left: 5%;
+        float: left;
+        width: 45%;
+    }
+}
+
+/*The columns for skills and links are stacked one on top of each other below 690px*/
+@media only screen and (max-width: 690px) {
+    #skill_column_1, #skill_column_2, #skill_column_3 {
+        width: 95%;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+
+    #link_column_1, #link_column_2 {
+        width: 95%;
+        margin-top: 20px;
+        margin-left: 5%;
+        padding-bottom: 20px;
+    }
+
+    #link_column_3 {
+        width: 95%;
+        margin-top: 20px;
+        margin-left: 5%;
+        padding-bottom: 100px;
+    }
+
+}
+
+/*Two column setout above 600px*/
+@media only screen and (min-width: 600px) {
+
+    #column_1 {
+        width: 20%;
+        min-width: 200px;
+        max-width: 300px;
+        float: left;
+    }
+
+    #column_2 {
+        width: auto;
+        overflow: auto;
+    }
+
+}
+
+/*Set the background colour below 600px*/
+@media only screen and (max-width: 599px) {
+
+    body {
+        background-color: #f3f3f4;
+    }
+}

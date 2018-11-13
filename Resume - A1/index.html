@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>COSC260 A1</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="COSC260 Assignment 1 - Creation of an online curriculum vitae">
+    <meta name="keywords" content="COSC260, assignment 1, curriculum vitae, CV, HTML, CSS">
+    <meta name="author" content="James O'Kane">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!-- START WRAPPER -->
+    <div id="wrapper">
+        <!-- START COLUMN 1 -->
+        <div id="column_1">
+            <div id="image_section">
+                <!-- Background image from:
+                https://freebackgroundshd.com/wp-content/uploads/2016/04/Simple-Dark-Blue-Free-HD-Background-2560x1440.jpg -->
+                <div id="img_container">
+                    <img src="img/me.png" alt="A picture of James O'Kane" />
+                </div>
+                <div id="cv_name">
+                    <p>JAMES O'KANE</p>
+                </div>
+            </div>
+            <div id="divider"></div>
+            <div id="cv_position">
+                <p>DATA SCIENTIST</p>
+            </div>
+            <div id="contact_details">
+                <img src="img/user_icon.svg" alt="person icon" /><span>Contact Details</span>
+            </div>
+            <div id="contact_list">
+                <ul>
+                    <!-- All icons from Iconfinder's set of free icons (https://www.iconfinder.com/free_icons):
+                    https://www.iconfinder.com/iconsets/essential-part-1 
+                    https://www.iconfinder.com/iconsets/essential-part-2 
+                    https://www.iconfinder.com/iconsets/essential-part-3 
+                    https://www.iconfinder.com/iconsets/linecons-free-vector-icons-pack -->
+                    <li><img src="img/email_icon.svg" alt="Email icon" /><span>jokane2@myune.edu.au</span></li>
+                    <li><img src="img/phone_icon.svg" alt="Phone icon" /><span>0457 248 370</span></li>
+                    <li><img src="img/address_icon.svg" alt="Map pinpoint icon" /><span>Brisbane, Qld</span></li>
+                </ul>
+            </div>
+            <nav>
+                <a href="#about_me"><div><img src="img/about_me_icon.svg" alt="book icon" /><span>About Me</span></div></a>
+                <a href="#education"><div><img src="img/education_icon.svg" alt="paper and pen icon" /><span>Education</span></div></a>
+                <a href="#employment"><div><img src="img/employment_icon.svg" alt="brief case icon" /><span>Employment</span></div></a>
+                <a href="#skills"><div><img src="img/skills_icon.svg" alt="tickbox icon" /><span>Skills</span></div></a>
+                <a href="#links"><div><img src="img/links_icon.svg" alt="page bookmark icon" /><span>Links</span></div></a>
+            </nav>
+        </div>
+        <!-- END COLUMN 1 -->
+
+        <!-- START COLUMN 2 -->
+        <div id="column_2">
+            
+            <!-- START ABOUT ME -->
+            <div id="about_me">
+                <div class="heading">
+                    <!-- https://www.iconfinder.com/free_icons -->
+                    <img src="img/about_me_icon.svg" alt="book icon" /><span>About Me</span>
+                    <span class="top_of_page" ><a href="#column_1"><img src="img/top_page_icon.svg" alt="top of page icon" /></a></span>
+                </div>
+                <div class="content">
+                    <p>
+                        I am an aspiring Data Scientist and Engineer who is currently in my first year of my Masters in Data Science at the University of New England. I come from a background in Civil Engineering where 
+                        I have spent the past 15 years deliverying large civil infrastructure projects across Australia. During this time I have shown to be a creative problem solver who knows how to ask insightful
+                        questions and how to learn quickly. Construction projects generate massive amounts of data and I have proven myself to be comfortable in analzsing and interpreting large complex datasets.
+                        <br>
+                        <br>
+                        My passion for data science and machine learning has grown over the past 5 years whilst I have been teaching myself Python programming. I want to take the learnings from my Data Science study and
+                        apply his knowledge within the construction industry to solve data-driven problems. 
+                    </p>
+                </div>
+            </div>
+            <!-- FINISH ABOUT ME -->
+            
+            <!-- START EDUCATION -->
+            <div id="education">
+                <div class="heading">
+                    <!-- https://www.iconfinder.com/free_icons -->
+                    <img src="img/education_icon.svg" alt="paper and pen icon" /><span>Education</span>
+                    <span class="top_of_page" ><a href="#column_1"><img src="img/top_page_icon.svg" alt="top of page icon" /></a></span>
+                </div>
+                <div class="content">
+                    <p class="school">University of New England</p>
+                    <p class="degree">Master's degree, Data Science</p>
+                    <p class="year">2018 - 2021(expected)</p>
+                    <p class="info">Data is a vital asset valued by virtually every organisation in the world. It provides the basis for sensible, evidence-based decision making, and the ability to manage and make sense of data is a key skill in the modern workplace. In the last decade, streams of data of various types have grown in volume and velocity such that they require specialist skills in order to get the most value from them. Data scientists are responsible for buildng intelligent systems, mastering intuitive proesses and bringing structure to the vast quantities of data to unlock the potential for improvement and competitive advantage.</p>
+                </div>
+                <div class="content">
+                    <p class="school">Griffith University</p>
+                    <p class="degree">Bachelor of Engineering in Civil Engineering</p>
+                    <p class="year">1999 - 2002</p>
+                    <p>Many of the buildings and physical infrastructures in our modern society are made possible by civil engineers. Civil engineers provide a major contribution to society by supporting the design and development of essential services, and by managing and improving the built environment. By studying civil engineering, you will develop your knowledge in the planning, design, construction and management of buildings and infrastructure such as: roads, bridges, rail networks, irrigation, drainage and flood mitigation systems, airports, water and wastewater treatment plants, port and harbours, coastal defence and management systems, commercial buildings and residential houses.</p>
+                </div>
+            </div>
+            <!-- FINISH EDUCATION -->
+            
+            <!-- START EMPLOYMENT -->
+            <div id="employment">
+                <div class="heading">
+                    <!-- https://www.iconfinder.com/free_icons -->
+                    <img src="img/employment_icon.svg" alt="brief case icon" /><span>Employment</span>
+                    <span class="top_of_page" ><a href="#column_1"><img src="img/top_page_icon.svg" alt="top of page icon" /></a></span>
+                </div>
+                <div class="content">
+                    <p class="employer">Queensland Urban Utilies</p>
+                    <p class="position">Construction Manager</p>
+                    <p class="year">2018</p>
+                    <p>Queensland Urban Utilies is one of the largest water distributor-retailers in Australia, supplying drinking water, recycled water and sewerage services to a population of more than 1.4 million in South East Queensland. </p>
+                </div>
+                <div class="content">
+                    <p class="employer">AECOM</p>
+                    <p class="position">Construction Manager / Bid Manager</p>
+                    <p class="year">2016 - 2018</p> 
+                    <p>In late 2015 AECOM Australia estabilsihed their Construction Services division with the purpose of offering a fully integrated Design and Build service. Construction Services allowes AECOM to deliver projects as Principal Contractor.</p>
+                </div>
+                <div class="content">
+                    <p class="employer">Toowoomba Regional Council</p>
+                    <p class="position">Construction Manager</p>
+                    <p class="year">2014 - 2016</p>
+                    <p>The O'Mara Road Carriageway Duplication is Toowoomba Regional Councils largest self-performed capital works project to date at $27 million. The project involves the duplication of O'Mara Road between the Warrego Highway and Toowoomba-Cecil Plains Road.</p>
+                </div>
+                <div class="content">
+                    <p class="employer">AECOM</p>
+                    <p class="position">Construction Manager</p>
+                    <p class="year">2012 - 2014</p>
+                    <p>The record-breaking floods of December 2010 and January 2011 saw unprecedented damage to Toowomba Regional Council’s 10,000km network of roads and bridges across the region. Estimated at nearly $200 million, this total damage bill is costing almost double council's current annual capital and maintenance works program. Approximately 1800 emergency repair sites and 1300 reconstruction sites have been identified across the region.</p>
+                </div>
+            </div>
+            <!-- FINISH EMPLOYMENT -->
+            
+            <!-- START SKILLS -->
+            <div id="skills">
+                <div class="heading">
+                    <!-- https://www.iconfinder.com/free_icons -->
+                    <img src="img/skills_icon.svg" alt="tickbox icon" /><span>Skills</span>
+                    <span class="top_of_page" ><a href="#column_1"><img src="img/top_page_icon.svg" alt="top of page icon" /></a></span>
+                </div>
+                <div id="skill_column_1">
+                    <p class="skill_type">Programming</p>
+                    <div class="skill_item">
+                        <div class="skill_name">Python</div>
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                    </div>
+                    <div class="skill_item">
+                        <div class="skill_name">SQL</div>
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                    </div>
+                    <div class="skill_item">
+                        <div class="skill_name">Java</div>
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                    </div>
+                </div>
+                <div id="skill_column_2">
+                    <p class="skill_type">Web Development</p>
+                    <div class="skill_item">
+                        <div class="skill_name">HTML(5)</div>
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                    </div>
+                    <div class="skill_item">
+                        <div class="skill_name">CSS(3)</div>
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                    </div>
+                    <div class="skill_item">
+                        <div class="skill_name">Javascript</div>
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                    </div>
+                </div>
+                <div id="skill_column_3">
+                    <p class="skill_type">Tools</p>
+                    <div class="skill_item">
+                        <div class="skill_name">Git</div>
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                    </div>
+                    <div class="skill_item">
+                        <div class="skill_name">Atom</div>
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                    </div>
+                    <div class="skill_item">
+                        <div class="skill_name">Linux</div>
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                        <img src="img/star_icon_2.svg" alt="star icon" />
+                    </div>
+                </div>
+            </div>
+            <!-- FINISH SKILLS -->
+            
+            <!-- START LINKS -->
+            <div id="links">
+                <div class="heading">
+                    <!-- https://www.iconfinder.com/free_icons -->
+                    <img src="img/links_icon.svg" alt="page bookmark icon" /><span>Links</span>
+                    <span class="top_of_page" ><a href="#column_1"><img src="img/top_page_icon.svg" alt="top of page icon" /></a></span>
+                </div>
+                <div id="link_column_1">
+                    <p class="link_type">Researchers</p>
+                    <div><a href="http://robots.stanford.edu/">Sebastian Thrun</a></div>
+                    <div><a href="http://www.andrewng.org/">Andrew Ng</a></div>
+                    <div><a href="http://www.iangoodfellow.com/">Ian Goodfellow</a></div>
+                </div>
+                <div id="link_column_2">
+                    <p class="link_type">Organizations</p>
+                    <div><a href="https://openai.com/">OpenAI</a></div>
+                    <div><a href="https://deepmind.com/">DeepMind</a></div>
+                    <div><a href="https://ai.googleblog.com/">Google Research</a></div>
+                </div>
+                <div id="link_column_3">
+                    <p class="link_type">YouTube</p>
+                    <div><a href="https://www.youtube.com/user/sentdex">sentdex</a></div>
+                    <div><a href="https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A">Siraj Raval</a></div>
+                    <div><a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal">Machine Learning Recipes</a></div>
+                </div>
+            </div>
+            <!-- FINISH LINKS -->
+            
+        </div>
+        <!-- END COLUMN 2 -->
+    </div>
+    <!-- END WRAPPER -->
+</body>
+
+</html>
